@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html layout</title>
+    <!-- 1em=16px,1rem=16px,100%=16px -->
+    <style>
+        div.container{
+            width: 100%;
+            border: 1px solid green;
+
+
+        }
+        header,footer{
+            padding: 1px;
+            color:rgb(255,255,255);
+            background-color: rgb(177, 106, 159);
+            clear: left;
+            text-align: center;
+
+
+        }
+        nav{
+            float: left;
+            max-width: 160px;
+            margin: 0;
+            padding: 1em;
+
+
+        }
+        nav ul{
+           list-style-type: none;
+           padding: 0; 
+        }
+        nav ul a{
+            text-decoration: none;
+        }
+        article{
+            margin-left: 170px;
+            border-left: 1px solid rgb(184, 16, 16);
+            padding: 1em;;
+            overflow: hidden;
+
+             
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>html layout</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+
+
+            </ul>
+        </nav>
+        <article>
+            <h2>Layout</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, obcaecati! Facere fuga harum cupiditate. Dolorem cum perferendis eius debitis suscipit nihil, 
+                quis omnis nam quod aliquam, labore nobis eum dignissimos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa reprehenderit quaerat eaque doloremque totam error similique, quis natus veritatis? Unde 
+                reprehenderit nisi hic magnam id debitis, ut atque autem repellat!</p>
+            </article>
+        <footer>Copy @justrise.com</footer>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+.cart{
+    border: 3px solid green;
+    border-radius: 3px;
+    padding-left: 7%;
+} 
+::placeholder{
+    color: orangered;
+}
+.container{
+    padding: 10px;
+}
