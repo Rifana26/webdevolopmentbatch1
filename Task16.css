@@ -1,0 +1,40 @@
+.btn-base{
+    width: 150px;
+    padding: 15px;
+    font-size: 16px;
+    border: 10px;
+    cursor: pointer;
+}
+.btn-dark{
+    background-color: #aa3030;
+    color:azure;
+    border: none;
+
+}
+.btn-light{
+    background-color: #ff869ae5;
+    color:azure;
+    border: none;
+
+}
+.btn-outline{
+    background-color: #c79696;
+    color:azure;
+    border: 1px solid #aa3030;
+    
+}
+.btn_style{
+background: none;
+color: #aa3030;
+border: 2px solid #366336;
+width: 150px;
+padding: 15px;
+font-size: 16px;
+cursor: pointer;
+} 
+.btn_style:hover{
+    /* hover potta click panni varramaari irukum */
+    background-color: #3630A3;
+    color: white;
+
+}

@@ -1,0 +1,32 @@
+<!-- css syntax
+declaration
+{color:blue;font-size: 20px;}
+property(color,font-size) , value(blue,20px) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer form</title>
+    <link rel="stylesheet" href="Task17.css">
+</head>
+<body>
+    <form id="customer-form">
+        <fieldset>
+            <legend>Customer Information</legend>
+            <label>First Name</label><br>
+            <input type="text" name="firstname"><br><br>
+            <label>Last Name</label><br>
+            <input type="text" name="lastname"><br><br>
+            <label>City</label><br>
+            <input type="text" name="city"><br><br>
+            <label for="insurence">
+                <input type="checkbox" id="insurence" 
+                name="hasinsurance" value="hasinsurance"> Has insurance
+            </label><br>
+            <button type="submit">Submit</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
