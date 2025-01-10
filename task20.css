@@ -1,0 +1,45 @@
+#div1{
+    background-color: blue;
+}
+#div2{
+    background-color: orange;
+    /* position: static; */
+    /* static means oru idathula nilaiya irukuradhu maaradhu */
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+     /* webkitsticky used to hold the stiky position ,belowed objects only move */
+    /* relativve kuda dha absolute work aagum */
+    
+    /* left: 30px; */
+    /* top left kudutha position maari next ku maarum */
+
+    
+}
+#div3{
+    background-color: red;
+}
+div{
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 75px;
+    color: white;
+    font-size: 24px;
+}
+/* #container{
+    background-color: red;
+    width: 200px;
+    height: 150px;
+    position: relative;
+} */
+.sticky{
+    background-color: rgb(26, 219, 36);
+}
+body{
+    
+    height: 500px;
+
+}
